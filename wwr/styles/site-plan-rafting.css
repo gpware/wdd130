@@ -18,12 +18,12 @@ Fonts are separated by a & */
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #1570b9;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #1570b9; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #0a2964; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #1570b9  ;
-  --nav-link-color: #0a2964;
+  --nav-link-color: #000;
   --nav-background-color: #47bde5;
-  --nav-hover-link-color: #d98e22;
+  --nav-hover-link-color: #fff;
   --nav-hover-background-color: #0a2964;
 }
 
