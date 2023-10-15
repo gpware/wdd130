@@ -1,0 +1,17 @@
+#circles {
+    display: block;
+    width: 735px;
+}
+
+#small-images{
+    text-align: center;
+    background-color: #737373;
+    width: 735px;
+}
+
+#desk, #graphic, #person{
+    width: 145px;
+    border-radius: 50%;
+    border: 8px solid #444444;
+    margin: 25px;
+}
