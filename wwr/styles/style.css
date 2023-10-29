@@ -2,7 +2,7 @@
 
 :root {
 --heading-font: "Playfair Display", courier, sans-serif;
---paragraph-font: Inclusive Sans, Helvetica, sans-serif;
+--paragraph-font: "Inclusive Sans", "Inclusive Sans", sans-serif;
 }
 
 header {
