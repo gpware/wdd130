@@ -240,6 +240,67 @@ footer .social img {
 
 
 
+/*FAQ PAGE */
+/*id = # class = .*/
+
+.faq_grid {
+    display: grid;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#faq_top {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr ;
+    margin:  100px auto;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+#faq_title {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-right: 50px;
+    font: var(--heading-font);
+    font-size: 3em;
+}
+
+#faq_subtitle {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 200px;
+    padding-right: 50px;
+    font: var(--heading-font);
+    font-size: 1.5em;
+}
+
+.faq_img {
+    grid-row: 1/2;
+    padding-left: 50px;
+}
+
+#faq_bottom {
+    width: 75%;
+    margin: 0 auto;
+    font: var(--paragraph-font);
+}
+
+.question {
+    font-size: 1.2em;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #0a2964;
+    color: white;
+
+}
+
+.answer {
+    margin-bottom: 100px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #47bde5;
+}
 
 
 @media screen and (max-width: 900px) {
