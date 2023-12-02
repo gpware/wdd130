@@ -48,49 +48,49 @@
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 8</div>
-                    <img src="images/civic(1).png" style="width:100%">
+                    <img src="images/rsz_1civic1-min.png" style="width:100%">
                     <div class="text"></div>
                 </div>
   
                 <div class="mySlides fade">
                     <div class="numbertext">2 / 8</div>
-                    <img src="images/civic(2).png" style="width:100%">
+                    <img src="images/rsz_1civic2-min.png" style="width:100%">
                     <div class="text"></div>
                 </div>
   
                 <div class="mySlides fade">
                     <div class="numbertext">3 / 8</div>
-                    <img src="images/civic(3).png" style="width:100%">
+                    <img src="images/rsz_1civic3-min.png" style="width:100%">
                     <div class="text"></div>
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">4 / 8</div>
-                    <img src="images/civic(4).png" style="width:100%">
+                    <img src="images/rsz_civic4-min.png" style="width:100%">
                     <div class="text"></div>
                 </div>
   
                 <div class="mySlides fade">
                     <div class="numbertext">5 / 8</div>
-                    <img src="images/civic(5).png" style="width:100%">
+                    <img src="images/rsz_1civic5-min.png" style="width:100%">
                     <div class="text"></div>
                 </div>
   
                 <div class="mySlides fade">
                     <div class="numbertext">6 / 8</div>
-                    <img src="images/civic(6).png" style="width:100%">
+                    <img src="images/rsz_1civic6-min.png" style="width:100%">
                     <div class="text"></div>
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">7 / 8</div>
-                    <img src="images/civic(7).png" style="width:100%">
+                    <img src="images/rsz_1civic7-min.png" style="width:100%">
                     <div class="text"></div>
                 </div>
   
                 <div class="mySlides fade">
                     <div class="numbertext">8 / 8</div>
-                    <img src="images/civic.png" style="width:100%">
+                    <img src="images/rsz_2civic-min.png" style="width:100%">
                     <div class="text"></div>
   
                 <!-- Next and previous buttons -->
@@ -106,23 +106,7 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
             
-            <script>
-                let slideIndex = 0;
-                showSlides();
-
-                function showSlides() {
-                    let i;
-                    let slides = document.getElementsByClassName("mySlides");
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    slideIndex++;
-                    if (slideIndex > slides.length) {slideIndex = 1}
-                    slides[slideIndex-1].style.display = "block";
-                    setTimeout(showSlides, 10000); // Change image every 2 seconds
-                }
-
-            </script>
+            
             
             
             <p>This 4-door 2015 Honda Civic Sedan EX is a highly desirable rental option due to its 
@@ -158,5 +142,23 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 10000); // Change image every 2 seconds
+        }
+
+    </script>
 </body>
 </html>
