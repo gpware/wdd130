@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Ware's My Ride</title>
 </head>
 <body>
+    
     <div id="content">
         <header>
             <a id="logo_link" href="index.html">
@@ -19,46 +20,55 @@
             </nav>
         </header>
 
-        <extras-main>
-            <top>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/colorado_mountains.jpg" alt="colorado mountains">
+            </div>
+
+            <div id = "top">
                 <h1 id="extra_top">Extras</h1>
                 <p id="extra_subtitle">These are all extra things that we offer for you to rent to 
                     make your experience more enjoyable and convenient!</p>
-            </top>
+            </div>
+        </div> 
 
-            <extras id="extras_grid">
+        <main class="extras_main">
+               
+            
 
-                <h2 id="extra_item">Sleeping bag</h2>
-                <p id="discription">5 20° Sleeping bags and 5 0° Sleeping bags. Just remember the 
-                    ratings are the temperature of survival, NOT comfort. $5/day10 available</p>
+            <div id="extras_grid">
 
-                <h2 id="extra_item">Camp chair</h2>
-                <p id="discription">$3/day 3 available</p>
+                <h2 id="bag_name">Sleeping bag</h2>
+                <p id="bag_discription">5 20° Sleeping bags and 5 0° Sleeping bags. Just remember the 
+                    ratings are the temperature of survival, NOT comfort. $5/day, 10 available</p>
 
-                <h2 id="extra_item">Camping tent</h2>
-                <p id="discription">12 man text $15/day 1 available</p>
+                <h2 id="chair_name">Camp chair</h2>
+                <p id="chair_discription">$3/day, 3 available</p>
 
-                <h2 id="extra_item">Hiking backpack </h2>
-                <p id="discription">$10/day 2 available</p>
+                <h2 id="tent_name">Camping tent</h2>
+                <p id="tent_discription">12 man text $15/day, 1 available</p>
 
-                <h2 id="extra_item">Phone mount Universal air vent phone mount</h2>
-                <p id="discription">$5/trip 1 available</p>
-                <img id="phone_mount" src="images/universal phone mount.jpg" alt="phone mount">
+                <h2 id="backpack_name">Hiking backpack</h2>
+                <p id="backback_discription">$10/day, 2 available</p>
 
-                <h2 id="extra_item">Cooler</h2>
-                <p id="discription">$7/day 2 available</p>
+                <h2 id="mount_name">Phone Mount</h2>
+                <p id="mount_discription">Universal air vent phone mount $5/trip, 1 available</p>
+                <img id="phone_mount" src="images/universal_phone_mount.jpg" alt="phone mount">
 
-                <h2 id="extra_item">Bike rack Trunk mounted bike rack</h2>
-                <p id="discription">Holds two bikes $10/day 1 available</p>
+                <h2 id="cooler_name">Cooler</h2>
+                <p id="cooler_discription">$7/day, 2 available</p>
+
+                <h2 id="rack_name">Bike Rack</h2>
+                <p id="rack_discription">Trunk mounted bike rack. Holds two bikes $10/day, 1 available</p>
                 <img id="bike_rack" src="images/trunk_mount_bik_rack.webp" alt="bike rack">
 
-                <h2 id="extra_item">Prepaid refuel</h2>
-                <p id="discription">Save time, make drop-off a breeze, and avoid additional fees 
+                <h2 id="refuel_name">Prepaid refuel</h2>
+                <p id="refuel_discription">Save time, make drop-off a breeze, and avoid additional fees 
                     by adding this Extra, which allows you to return my car at any fuel level. 
                     Price includes up to a full tank of gas. $49/trip</p>
 
-            </extras>
-        </extras-main>
+                </div>
+        </main>
 
         <footer>
             <p>Ware's My Ride &copy; 2023 - Grant Ware</p>
@@ -74,6 +84,7 @@
                 <a href="https://instagram.com" target="_blank">
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
+            </div>
         </footer>
     </div>
 </body>

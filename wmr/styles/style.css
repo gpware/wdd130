@@ -125,7 +125,7 @@ nav a:hover {
   padding: 50px;
   margin-top: 50px;
 }
-main {
+main, extras-main {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -246,19 +246,139 @@ main {
 }
 
 
-
 main h3 {
   text-align: center;
   margin-top: 100px;
 }
 
+
+/*Extras Page*/
+.extras_main {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#top {
+  display: block;
+  border: 2px solid black;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: rgba(204, 204, 204, 0.6);
+  padding-bottom: 50px;
+}
+
+#extra_top, #extra_subtitle {
+  text-align: center;
+}
+
+#extras_grid {
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: 50px 200px 50px 200px 50px 200px 50px 200px 50px 200px 50px 200px 50px 200px 50px 200px;
+  margin-top: 100px;
+  margin-bottom: -50px;
+}
+
+#extras_grid h2 {
+  margin: auto 0;
+}
+
+#extras_grid h2, #extras_grid img {
+  grid-column: 1/2;
+}
+
+#extras_grid p {
+  grid-column: 2/3;
+}
+
+
+#bag_name {
+  grid-row: 1/2;
+}
+
+#bag_discription {
+  grid-row: 2/3;
+}
+
+#chair_name {
+  grid-row: 3/4;
+}
+
+#chair_discription {
+  grid-row: 4/5;
+}
+
+#tent_name {
+  grid-row: 5/6 ;
+}
+
+#tent_discription {
+  grid-row: 6/7;
+}
+
+#backpack_name {
+  grid-row: 7/8;
+}
+
+#backback_discription{
+  grid-row: 8/9;
+}
+
+#mount_name {
+  grid-row: 9/10;
+}
+
+#mount_discription{
+  grid-row: 10/11;
+}
+
+#phone_mount {
+  margin: auto 0;
+  grid-row: 10/11;
+  width: 60%;
+}
+
+#cooler_name {
+  grid-row: 11/12;
+}
+
+#cooler_discription{
+  grid-row: 12/13;
+}
+
+#rack_name {
+  grid-row: 13/14;
+}
+
+#rack_discription {
+  grid-row: 14/15;
+}
+
+#bike_rack {
+  margin: auto 0;
+  grid-row: 14/15;
+  width: 50%;
+}
+
+#refuel_name {
+  grid-row: 15/16;
+}
+
+#refuel_discription {
+  grid-row: 16/17;
+}
+
+
 footer {
   background-color: var(--nav-background-color);
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
 
 .logo {
