@@ -125,7 +125,7 @@ nav a:hover {
   padding: 50px;
   margin-top: 50px;
 }
-main, extras-main {
+main {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -384,6 +384,71 @@ main h3 {
   grid-row: 16/17;
 }
 
+
+/*Pickup and Return Page*/
+.pickup_return_main {
+  max-width: 1200px;
+}
+
+.pickup_return_top {
+  text-align: center;
+  border: 2px solid black;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: rgba(204, 204, 204, 0.6);
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#pickup_return_title {
+  font: var(--heading-font);
+  font-size: 2.5em;
+}
+
+#important_notice h1, #pickup_instructions h1, #return_instructions h1 {
+  font: var(--heading-font);
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#important_notice {
+  margin: 100px auto;
+}
+
+#pickup_instructions {
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr 150px;
+  margin: 100px auto;
+}
+
+#pickup_instructions h1 {
+ grid-column: 1/5;
+}
+
+#parking_map {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 100%;
+}
+
+#lock_box {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  width: 50%;
+}
+
+#pickup_instructions p {
+  grid-column: 1/5;
+}
+
+
+#return_instructions {
+  margin: 100px auto;
+}
 
 footer {
   background-color: var(--nav-background-color);

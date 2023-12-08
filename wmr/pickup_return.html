@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Ware's My Ride</title>
 </head>
 <body>
@@ -19,12 +19,19 @@
             </nav>
         </header>
 
-        <pickup_return-main>
-            <top>
-                <h1 id="pickup_return_top">Pickup/Return</h1>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/colorado_mountains.jpg" alt="colorado mountains">
+            </div>
+
+            <div class="pickup_return_top">
+                <h1 id="pickup_return_title">Pickup/Return</h1>
                 <p id="pickup_return_subtitle">Specific instructions on how to pick up our car when you 
                     arrive and how to set it up as you return it!</p>
-            </top>
+            </div>
+        </div> 
+
+        <main class="pickup_return_main">
             
             <div id="important_notice">
                 <h1>Important Notice</h1>
@@ -36,32 +43,35 @@
                 on lot, and pickup time required.</p>
             </div>
 
-            <h1>PICKUP INSTRUCTIONS</h1>
-            <img id="parking_map" src="images/DenverAirportParkingMap.jpg" alt="DIA parking map">
-            <img id="lock_box" src="images/lock box.jpg" alt="lock box">
-            <p>***YOU WILL BE RESPONSIBLE FOR ANY PARKING FEES EXITING DENVER AIRPORT*** Depending on parking 
-                availability, we may drop off the car either in the garage, the economy lot, or even the Pikes Peak 
-                lot. We will confirm as we go to drop off the car. There will be a lock box on the driver's window 
-                with the keys inside. Once you have located the car, we will ask you for a selfie of you and the car 
-                behind you, and we will text you the code to open the lockbox. In the lockbox, you will find a black 
-                faraday pouch with the key fob inside. Once the key is out of the pouch you will be able to unlock 
-                the car. Upon getting in the car please remove the lockbox by carefully rolling down the window while 
-                holding the lockbox to free the lockbox from its place. Feel free to put the lock box wherever is 
-                convenient for you (glove box, trunk, backseat floor, etc.). Keep the black faraday pouch either in 
-                the (unlocked) box or somewhere you can access it as you will need it for the return process. We will 
-                leave the ticket in the car as you will need it to pay for parking as you leave.</p>
-
-            <h2>RETURN INSTRUCTIONS</h2>
-            <p>When you return, please return to the same lot you received the car at. If not available, park in one 
-                of the other lots (West Economy, East Economy, Pikes Peak lot, or Garage) and message us a photo of 
-                identifying features of the location of the car so we know where it is. Leave the ticket you got for 
-                parking in the car when you leave so we can get out of the lot. Please make sure all of your personal 
-                belongings are out of the vehicle, place the key fob back into the faraday pouch, velcro it shut, and 
-                put it in the center console of the vehicle. Don't worry about putting the lockbox back on the window. 
-                Feel free to leave it in the car. To lock the car, press the 'lock' button on either of the front doors 
-                and make sure all doors are shut. At that point, please ensure that all doors are locked.</p>
-
-        </pickup_return-main>
+            <div id ="pickup_instructions">
+                <h1>PICKUP INSTRUCTIONS</h1>
+                <img id="parking_map" src="images/DenverAirportParkingMap.jpg" alt="DIA parking map">
+                <img id="lock_box" src="images/lock_box.jpg" alt="lock box">
+                <p>***YOU WILL BE RESPONSIBLE FOR ANY PARKING FEES EXITING DENVER AIRPORT*** Depending on parking 
+                    availability, we may drop off the car either in the garage, the economy lot, or even the Pikes Peak 
+                    lot. We will confirm as we go to drop off the car. There will be a lock box on the driver's window 
+                    with the keys inside. Once you have located the car, we will ask you for a selfie of you and the car 
+                    behind you, and we will text you the code to open the lockbox. In the lockbox, you will find a black 
+                    faraday pouch with the key fob inside. Once the key is out of the pouch you will be able to unlock 
+                    the car. Upon getting in the car please remove the lockbox by carefully rolling down the window while 
+                    holding the lockbox to free the lockbox from its place. Feel free to put the lock box wherever is 
+                    convenient for you (glove box, trunk, backseat floor, etc.). Keep the black faraday pouch either in 
+                    the (unlocked) box or somewhere you can access it as you will need it for the return process. We will 
+                    leave the ticket in the car as you will need it to pay for parking as you leave.</p>
+            </div>
+            
+            <div id="return_instructions">
+                <h1>RETURN INSTRUCTIONS</h1>
+                <p>When you return, please return to the same lot you received the car at. If not available, park in one 
+                    of the other lots (West Economy, East Economy, Pikes Peak lot, or Garage) and message us a photo of 
+                    identifying features of the location of the car so we know where it is. Leave the ticket you got for 
+                    parking in the car when you leave so we can get out of the lot. Please make sure all of your personal 
+                    belongings are out of the vehicle, place the key fob back into the faraday pouch, velcro it shut, and 
+                    put it in the center console of the vehicle. Don't worry about putting the lockbox back on the window. 
+                    Feel free to leave it in the car. To lock the car, press the 'lock' button on either of the front doors 
+                    and make sure all doors are shut. At that point, please ensure that all doors are locked.</p>
+            </div>
+        </main>
 
         <footer>
             <p>Ware's My Ride &copy; 2023 - Grant Ware</p>
@@ -77,6 +87,7 @@
                 <a href="https://instagram.com" target="_blank">
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
+            </div>
         </footer>
     </div>
 </body>
