@@ -28,13 +28,15 @@
 
 
 body {
-  max-width: 1600px;
-  margin: 0 auto;
   background-color: white;
   font-family: var(--paragraph-font);
   font-size: 22px;
 }
 
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 
 header {
     background-color: var(--nav-background-color);
@@ -456,6 +458,10 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 .logo {
